@@ -73,6 +73,8 @@ const handleSubmit = () =>{
       title: newTodo.value,
       isFav: false
     })
+
+    newTodo.value = ''
   }
 }
 
