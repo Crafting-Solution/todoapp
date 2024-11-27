@@ -1,0 +1,24 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-shadow{
+    @apply shadow-custom;
+}
+
+.shadow-custom{
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.activeLink{
+    @apply bg-green-500 p-2 text-white text-center font-bold rounded-sm text-sm
+}
